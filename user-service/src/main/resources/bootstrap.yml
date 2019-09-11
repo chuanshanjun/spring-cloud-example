@@ -8,4 +8,10 @@ spring:
       uri: ${CONFIG_SERVER_URL:http://localhost:8710}
       discovery:
         enabled: true
-        serviceId: user-service
+#        serviceId: user-service
+        serviceId: config-server
+
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8700/eureka/}

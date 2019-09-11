@@ -1,7 +1,7 @@
 const express = require('express')
 const faker = require('faker/locale/zh_CN')
 const logger = require('morgan')
-const services = require('./service')
+const services = require('./server')
 
 const app = express()
 

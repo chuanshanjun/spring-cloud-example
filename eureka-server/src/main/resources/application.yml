@@ -13,3 +13,5 @@ eureka:
     metadataMap:
       instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
     hostname: localhost
+  server:
+    enable-self-preservation: false
